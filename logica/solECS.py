@@ -35,3 +35,7 @@ class EcuacionSegundoGrado():
         self.a = a
         self.b = b
         self.c = c
+
+    def ImprimirSolucion(self):
+        print("X1 = " + self.x1)
+        print("X2 = " + self.x2)
